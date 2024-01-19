@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#left_box{
+    width: 75%;
+    height: 100vh;
+    border: 2px solid red;
+    float: left;
+}
+
+#right_box{
+    width: 25%;
+    height: 100vh;
+    border: 2px solid black;
+    float: right;
+}
+
+#video_player{
+    width: 100%;
+    height: 87%;
+}
+
+#progress_box{
+    width: 100%;
+    height: 11px;
+    margin-bottom: 1.8px;
+}
+
+#progress_bar{
+    width: 0%;
+    height: 10px;
+    background: #396afc;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#control_bar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #7F00FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#play_tools{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#play_bar{
+    font-size: 46px;
+    margin-left: 28px;
+    margin-right: 23px;
+    color: orangered;
+}
+
+#pause_bar{
+    font-size: 46px;
+    margin-left: 28px;
+    margin-right: 23px;
+    color: orangered;
+    display: none;
+}
+
+#left_btn,#right_btn{
+    font-size: 46px;
+    color: white;
+}
+
+#video_timing{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 25px;
+    color: white;
+}
+
+#volume,#speed_icon,#full_screen{
+    font-size: 30px;
+    margin-right: 25px;
+    color: white;
+}
+
+/* Styling in Right Box*/
+
+#top{
+    width: 100%;
+    height: 18%;
+    background-color: #ccc;
+}
+
+#header{
+    font-size: 34px;
+    font-family: 'ubuntu',sans-serif;
+    font-weight: bold;
+    color: blue;
+    margin-top: 13px;
+}
+
+#Search{
+    font-size: 18px;
+    font-family: 'ubuntu',sans-serif;
+    padding: 6px;
+    outline: none;
+    border: 2px solid red;
+    border-radius: 0.56rem;
+    padding-left: 25px;
+    margin-top: 15px;
+}
+
+#add_video_btn{
+    position: absolute;
+    font-size: 36px;
+    margin-left: 20.45%;
+    margin-top: 0.7%;
+    cursor: pointer;
+    
+}
+
+#cancel_video_box_button{
+    position: absolute;
+    font-size: 36px;
+    margin-left: 20.45%;
+    margin-top: 0.7%;
+    cursor: pointer;
+    display: none;
+}
+
+#add_video_box{
+    height: 205px;
+    width: 260px;
+    background-color: #323232;
+    border-radius: 17px 0px 17px 17px;
+    position: absolute;
+    top: 20px;
+    right: 65px;
+    display: none;
+}
+
+#heading{
+    font-size: 34px;
+    font-family: 'ubuntu',sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: 13px;
+}
+
+#video_name,#video_link{
+    font-size: 15px;
+    font-family: 'ubuntu',sans-serif;
+    padding: 4px;
+    outline: none;
+    border: 2px solid #ccc;
+    border-radius: 0.56rem;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+#submitBtn{
+    font-size: 22px;
+    font-family: 'ubuntu',sans-serif;
+    padding: 4px;
+    outline: none;
+    border: 2px solid #ccc;
+    border-radius: 0.56rem;
+    margin-top: 15px;
+    color: green;
+    font-weight: bold;
+}
+
+#bottom{
+    width: 100%;
+    height: 80%;
+    border: 2px solid purple;
+    overflow: auto;
+}
+
+#video_storage_box{
+    width: 90%;
+    border-radius:0.5rem 0px 0.5rem 0.5rem;
+    margin-top: 20px;
+    background: #0cebeb;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-left: 17px;
+}
+
+#playlist_video_name{
+    font-size: 23px;
+    font-family: 'ubuntu',sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: 8px;
+    margin-left: 4px;
+}
+
+#play_playlist{
+    font-size: 20px;
+    font-family: 'ubuntu',sans-serif;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-top: 6px;
+    background-color: #4285F4;
+    font-weight: bold;
+    color:white;
+    width:50%;
+}
+
+#delete_playlist{
+    font-size: 20px;
+    font-family: 'ubuntu',sans-serif;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-top: 6px;
+    background-color: #EA4335;
+    font-weight: bold;
+    color:white;
+    width:50%;
+}
+
+#volume_controler{
+    appearance: none;
+    position: absolute;
+    height: 15px;
+    width: 120px;
+    transform: rotate(270deg);
+    margin-left: -40px;
+    margin-top: -80px;
+    background-color: #323232;
+    border-radius: 0.5rem;
+    display: none;
+}
+
+#volume:hover{
+    transform: scale(0.9555);
+}
+
+#volume_controler::-webkit-slider-thumb{
+    appearance: none;
+    background-color: red;
+    height: 20px;
+    width: 14px;
+}
+
+
+#speed_controler{
+    appearance: none;
+    position: absolute;
+    height: 15px;
+    width: 120px;
+    transform: rotate(270deg);
+    margin-left: 20px;
+    margin-top: -115px;
+    background-color: #323232;
+    border-radius: 0.5rem;
+    display: none;
+}
+
+#speed_icon:hover{
+    transform: scale(0.9555);
+}
+
+#speed_controler::-webkit-slider-thumb{
+    appearance: none;
+    background-color: red;
+    height: 20px;
+    width: 14px;
+}
+
+/*Responsive Coding */
+
+@media(max-width: 768px)
+{
+    *{
+        overflow: auto;
+    }
+    #header{
+        font-size: 40px;
+        padding-right: 45px;
+        margin-top: 8px;
+    }
+
+    #Search{
+        font-size: 13px;
+        margin-top: 8px;
+
+    }
+    
+    #heri{
+    margin-left: -40px;
+    }
+
+    #playlist_video_name{
+        font-size: 17px;
+    }
+
+    #play_playlist{
+        font-size: 13px;
+    }
+
+    #delete_playlist{
+        font-size: 13px;
+    }
+
+    #video_storage_box{
+        margin-left: 80px;
+        width: 80%;
+    }
+
+    #video_timing,#play_bar,#pause_bar,#left_btn,#right_btn,#volume,#speed_icon,#full_screen{
+        font-size: 25px;
+    }
+
+    #add_video_btn,#cancel_video_box_button{
+        margin-left: 600px;
+        font-size: 35px;
+        margin-top: 13px;
+    }
+
+   #left_box{
+    width: 100%;
+   }
+
+   #right_box{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid black;
+    margin-top: 30px;
+}
+
+}
+
+@media(max-width: 425px)
+{
+    *{
+        overflow:auto;
+    }
+    #header{
+        font-size: 40px;
+        padding-right: 45px;
+        margin-top: 8px;
+    }
+
+    #Search{
+        font-size: 13px;
+        margin-top: 8px;
+
+    }
+    
+    #heri{
+    margin-left: -40px;
+    }
+
+    #playlist_video_name{
+        font-size: 17px;
+    }
+
+    #play_playlist{
+        font-size: 13px;
+    }
+
+    #delete_playlist{
+        font-size: 13px;
+    }
+
+    #video_storage_box{
+        margin-left: -20px;
+        width: 80%;
+    }
+
+    #video_timing,#play_bar,#pause_bar,#left_btn,#right_btn,#volume,#speed_icon,#full_screen{
+        font-size: 10px;
+    }
+
+    #add_video_btn,#cancel_video_box_button{
+        margin-left: 600px;
+        font-size: 35px;
+        margin-top: 13px;
+    }
+
+   #left_box{
+    width: 100%;
+   }
+
+   #right_box{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid black;
+    margin-top: 30px;
+}
+
+}

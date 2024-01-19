@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User_Profile</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+
+</head>
+<body>
+
+    <div id="container">
+        <div id="page_cover">
+            
+            <center>
+            <div id="round_circle">
+                <i class="fa-solid fa-user-secret" id="iconcc"></i>
+                <input type="file" accept="image/*" id="pic">
+            </div>
+
+            <br>
+
+         <p id="head">Upload Profile Pic</p>
+
+         <br>
+
+         <p id="name"></p>  
+
+         <br>
+
+         <button id="next"> Next <i class="fa-solid fa-angles-right"></i></button> 
+
+        </center>
+
+        </div>
+    </div>
+
+ <!--Start of Main Profile Page-->
+
+ <div id="Main_page" class="animate__animated animate__fadeInDown">
+
+    <div id="profile_header">
+        <div id="profile_pics" class="animate__animated animate__fadeInLeft">
+        </div>
+    </div>
+
+    <p id="profile_name" class="animate__animated animate__swing">XYZ </p>
+
+    <div id="app">
+        <div id="contact" class="animate__animated animate__fadeInLeft">
+            <center>
+                <i class="fa-solid fa-address-book" id="icon"></i>
+            <h1>Contact</h1>
+        </center>
+        </div>
+
+        <div id="player" class="animate__animated animate__fadeInDown">
+            <center>
+            <i class="fa-solid fa-circle-play" id="icon"></i>
+            <h1>Player</h1>
+        </center>
+        </div>
+
+        <div id="logout" class="animate__animated animate__fadeInRight">
+            <center>
+                <i class="fa-solid fa-right-from-bracket" id="icon"></i>
+            <h1 id="logout_text">Log Out</h1>
+        </center>
+        </div>
+    </div>
+
+    <div id="profile_footer" class="animate__animated animate__backInRight">
+        <p id="footer" class="animate__animated animate__bounceIn">Developed By : RG Creation Studio</p>
+    </div>
+
+</div>
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

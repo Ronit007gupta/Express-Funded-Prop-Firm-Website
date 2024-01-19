@@ -1,0 +1,254 @@
+*{
+    overflow: hidden;
+}
+
+.main_container{
+    height: 100vh;
+    width: 1430px;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7F00FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.page_container{
+    height: 530px;
+    width: 660px;
+    border: 4.75px solid #ccc;
+    border-radius: 30px;
+    padding-top: 19px;
+    background-color: white;
+}
+
+#head{
+    color: blue;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 32px;
+    font-weight: bold;
+}
+
+#head2{
+    color: black;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-left: 32px;
+    padding-top: 12px;
+}
+
+#f_name{
+    font-size: 20px;
+    border-radius: 6.4px;
+    border: 2px solid gray;
+    padding: 8px;
+}
+
+#l_name{
+    font-size: 20px;
+    border-radius: 6.4px;
+    border: 2px solid gray;
+    padding: 8px;
+}
+
+
+#f_icon{
+    font-size: 21px;
+    color: red;
+    opacity:0;
+}
+
+
+#f_icon2{
+    font-size: 21px;
+    color: red;
+    opacity:0;   
+}
+
+.one{
+    display: flex;
+    padding-left: 29px;
+}
+
+.two{
+    padding-left: 29px;
+}
+
+#f_icon3{
+    font-size: 21px;
+    color: red;
+    opacity:0;   
+}
+
+#mob_num{
+    font-size: 20px;
+    border-radius: 6.4px;
+    padding: 8px;
+    width: 570px;
+    border: 2px solid gray;
+}
+
+.three{
+    padding-left: 29px;
+}
+
+#f_icon4{
+    font-size: 21px;
+    color: red;
+    opacity:0;   
+}
+
+#email_num{
+    font-size: 20px;
+    border-radius: 6.4px;
+    padding: 8px;
+    width: 570px;
+    border: 2px solid gray;
+}
+
+.four{
+    padding-left: 29px;
+}
+
+#f_icon5{
+    font-size: 21px;
+    color: red;
+    opacity:0;   
+}
+
+#pass_num{
+    font-size: 20px;
+    border-radius: 6.4px;
+    padding: 8px;
+    width: 570px;
+    border: 2px solid gray;
+}
+
+.head3{
+    padding-left: 22px;
+}
+
+.head4{
+   text-align: center;
+   font-size: 17px;
+}
+
+.five{
+    display: flex;
+    justify-content: center;
+}
+
+#sign_up{
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+    color: white;
+    font-size: 25px;
+    border-radius: 7px;
+    padding: 8px;
+    font-weight: bold;
+    width: 250px;
+}
+
+#sign_up:hover{
+    transform: scale(0.98787);
+}
+
+input:focus{
+    outline: none;
+}
+
+#signuplink{
+    color: blue; 
+    font-weight: bold; 
+    font-weight: bold; 
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+#loginlink{
+    color: blue; 
+    font-weight: bold; 
+    font-weight: bold;
+     font-family: sans-serif;
+     cursor: pointer;
+}
+
+
+/* Now We are making LOGIN FORM*/
+
+#head5{
+    color: orangered;
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+   text-align: center;
+    font-weight: bold;
+}
+
+#email_ln{
+    font-size: 20px;
+    border-radius: 6.4px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 8px;
+    width: 570px;
+    border: 2px solid gray;
+    margin-left: 20px;
+}
+
+#f_iconln{
+    font-size: 21px;
+    color: red; 
+    opacity: 0;  
+}
+
+#pass_ln{
+    font-size: 20px;
+    border-radius: 6.4px;
+    padding: 8px;
+    width: 570px;
+    border: 2px solid gray;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 20px;
+}
+
+#f_iconln1{
+    font-size: 21px;
+    color: red; 
+    opacity: 0;  
+}
+
+#head10{
+    text-align: center;
+    font-size: 20px;
+}
+
+#login_ln{
+    color: white;
+    font-size: 25px;
+    border-radius: 7px;
+    padding: 8px;
+    font-weight: bold;
+    font-family: 'ubuntu',sans-serif;
+    width: 250px;
+    background: #396afc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+
+#login_ln:hover{
+    transform: scale(0.98787);
+}
+
+
+#signup_form{
+    display: none;
+  }
+
+
+
+

@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    height: 100vh;
+    width: 100%vh;
+    overflow: hidden;
+    background: #7F7FD5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page_cover{
+    background-color: white;
+    height: 439px;
+    width: 342px;
+    border-radius: 1.115rem;
+}
+
+#round_circle{
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    box-shadow: -6.75px -6.75px 8px blue;
+    margin-top: 35px;
+    overflow: hidden;
+    position: relative; /* Position Free Karne ke Liye*/
+}
+
+#iconcc{
+font-size: 171px;
+color: #ccc;
+position: absolute;  /* Position Free Karne ke Liye*/
+top: 0;              /* Position Free Karne ke Liye*/
+left: 0;             /* Position Free Karne ke Liye*/
+padding-top: 20px;
+padding-left: 20px;
+}
+
+#pic{
+    height: 190px;
+    width: 190px;
+    position: absolute;  /* Position Free Karne ke Liye*/
+    top: 0;              /* Position Free Karne ke Liye*/
+    left: 0;             /* Position Free Karne ke Liye*/
+    padding-top: 55px;
+    opacity: 0;
+}
+
+#head{
+    font-size: 30px;
+    font-family: 'ubuntu',sans-serif;
+    color: gray;
+    font-weight: 1200px;
+}
+
+#name{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'ubuntu',sans-serif;
+
+}
+
+#next{
+    color: white;
+    font-size: 24px;
+    border-radius: 8px;
+    padding: 6px;
+    font-weight: bold;
+    font-family: 'ubuntu',sans-serif;
+    width: 280px;
+    background: #7F00FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#next:hover{
+    transform: scale(0.98787);
+}
+
+/* End of Profile Picture*/
+
+
+
+
+body{
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+#profile_header{
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    background-position:bottom;
+    border-bottom: 2.24px solid #00755E;
+    background-image: url("../profilePage/bod2.png");
+
+}
+
+#profile_pics{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color:white;
+    border: 5px solid white;
+    box-shadow: 0px 0px 15px #ccc;
+    position: absolute;
+    left: 45%;
+    transform: translate(-50%);
+    top: 78px;
+    animation-duration: 3s;
+}
+
+#profile_name{
+    font-size: 37px;
+    font-family: 'ubuntu',sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-weight: bold;
+    animation-duration: 4s;
+
+}
+
+#app{
+    width: 100%;
+    height: 295px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact,#player,#logout{
+    width: 180px;
+    height: 150px;
+    background-color: white;
+    border-radius: 1.5rem;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-duration: 3s;
+}
+
+#contact:hover,#player:hover,#logout:hover{
+    height: 170px;
+    width: 200px;
+    box-sizing: 0px 0px 15px #ccc;
+    transition: 0.4s;
+}
+
+#profile_footer{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FB8D76;
+    animation-duration: 3s;
+}
+
+#footer{
+    font-size: 28px;
+    font-family: 'ubuntu',sans-serif;
+    font-weight: bold;  
+    color: white;  
+}
+
+#icon{
+    font-size: 40px;
+    color: #F5924F;
+}
+
+h1{
+    font-family: 'ubuntu',sans-serif;
+    font-weight: bold;
+    color: #F5924F;
+
+}
+
+#Main_page{
+    display: none;
+}
+
+
+
+
+
+                                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

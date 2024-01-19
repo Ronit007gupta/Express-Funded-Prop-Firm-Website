@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    background: #b2fefa;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #92ddec, #B2FEFA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #92ddec, #B2FEFA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#box{
+    height: 55px;
+    width: 100%;
+    background: #6fd1f2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-left: 300px;
+    animation-duration: 2.5s;
+}
+
+#contactHeadImage{
+    width: 470px;
+    height: 220px;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 30px;
+    animation-duration: 2.54s;
+}
+
+#contactIcon{
+    position: absolute;
+    margin-left: 61%;
+    height: 585px;
+    width: 580px;
+    animation-duration: 1.5s;
+}
+
+#query_name{
+    position: absolute;
+    margin-top: 190px;
+    margin-left:70px;
+    padding-top: 2px;
+    font-size: 24px;
+    width: 410px;
+    border-radius: 1.2rem;
+    padding: 7px;
+    font-family: 'ubuntu',sans-serif;
+    font-weight: bold;
+    padding-left: 50px; 
+    background-color: #d4f8fa;
+    border: none;
+    color: #8b8c8c;  
+    outline: none;
+    animation-duration: 2.77s;
+}
+
+#icon{
+    font-size: 24px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left:90px;
+    color: #8b8c8c;
+}
+
+#query_email{
+    position: absolute;
+    margin-top: 220px;
+    margin-left:70px;
+    padding-top: 2px;
+    font-size: 24px;
+    width: 410px;
+    border-radius: 1.2rem;
+    padding: 7px;
+    font-family: 'ubuntu',sans-serif;
+    font-weight: bold;
+    padding-left: 50px; 
+    color: #8b8c8c;
+    background-color: #d4f8fa;
+    border: none;
+    outline: none;
+    animation-duration: 2.77s;
+}
+
+#icon1{
+    font-size: 24px;
+    position: absolute;
+    margin-top: 230px;
+    margin-left:90px;
+    color: #8b8c8c;
+}
+
+#query_message{
+    position: absolute;
+    margin-top: 250px;
+    margin-left:70px;
+    font-size: 24px;
+    height: 120px;
+    width: 410px;
+    border-radius: 1.2rem;
+    font-family: 'ubuntu',sans-serif;
+    font-weight: bold;
+    color: #8b8c8c;
+    background-color: #d4f8fa;
+    border: none;
+    outline: none;
+    padding-bottom: 70px;
+    padding-left: 30px;
+    animation-duration: 3s;
+}
+
+#messageSubmit{
+    background-color: #4057ee;
+    color: white;
+    font-size: 25px;
+    border-radius: 7px;
+    padding: 8px;
+    font-weight: bold;
+    width: 250px;
+    position: absolute;
+    margin-top: 370px;
+    margin-left:130px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    animation-duration: 2.77s;
+}
+
+#messageSubmit:hover{
+    transform: scale(0.98787);
+}
+
+#office{
+    height: 130px;
+    width: 160px;
+    position: absolute;
+    margin-left: 570px;
+    margin-top: -70px;
+    padding-top:6px;
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius:1.2rem;
+    box-shadow: 0px 0px 10px #ccc;
+    animation-duration: 2.77s;
+    cursor: pointer;
+    
+}
+
+#phone{
+    height: 130px;
+    width: 160px;
+    position: absolute;
+    margin-left: 710px;
+    margin-top: 70px;
+    padding-top:6px;
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius:1.2rem;
+    box-shadow: 0px 0px 10px #ccc;
+    animation-duration:2.77s;
+    cursor: pointer;
+}
+
+#email{
+    height: 130px;
+    width: 160px;
+    position: absolute;
+    margin-left: 570px;
+    margin-top: 210px;
+    padding-top:6px;
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius:1.2rem;
+    box-shadow: 0px 0px 10px #ccc;
+    animation-duration: 2.77s;
+    cursor: pointer;
+}
+
+#linkdln{
+    height: 130px;
+    width: 160px;
+    position: absolute;
+    margin-left: 710px;
+    margin-top: 350px;
+    padding-top:6px;
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius:1.2rem;
+    box-shadow: 0px 0px 10px #ccc;
+    animation-duration:2.77s;
+    cursor: pointer;
+}
+
+#office:hover,#phone:hover,#email:hover,#linkdln:hover{
+    height: 135px;
+    width: 165px;
+    transition: 0.42s;
+}
+
+#Main_tag{
+    font-size: 15px;
+    font-family: 'ubuntu',sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#Main_icon{
+    font-size: 25px;
+    color:#B8F98C ;
+}
+
+#dat{
+    padding-top: 4px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #002745;
+}
+
+#contact_img{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px #B8F98C;
+    margin-top: -105px;
+    margin-left: 810px;
+    overflow: hidden;
+    position: absolute; /* Position Free Karne ke Liye*/
+    background-color:#56CCF2;
+    animation-duration: 2.77s;
+}
+
+
+
+
+
+
